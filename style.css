@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+header{
+    width: 100%;
+    height: 90px;
+}
+.logo{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.logo h1{
+    color: rgb(40, 72, 168);
+    font-size: 30px;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    left: 700px;
+    bottom: 37px;
+    cursor: pointer;
+    text-indent: 50px;
+}
+nav ul li a {
+    color: rgb(40, 72, 168);
+    text-decoration: none;
+  
+}
+main{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(99, 99, 99);
+}
+main .description{
+
+}
+.description h1{
+    padding-left: 190px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: white;
+    font-size: xx-large;
+}
+.description span{
+    font-size: 60px;
+}
+.description p{
+    position: relative;
+    right: 140px;
+    bottom: 90px;
+    color: white;
+    border-left: 10px solid white;
+    text-indent: 20px;
+   
+}
+.description h3{
+    position: relative;
+    left: 90px;
+    color: white;
+}
+.description p,h3{
+    float: right;
+    
+}
+
+
+article{
+    width: 100%;
+    height: 300px;
+    margin-top: 35px;
+}
+.child1,.child2{
+    width: 50%;
+    height: 300px;
+}
+.child1{
+    float: left;
+
+}
+
+main .child2{
+   position: relative;
+   bottom: 38px;
+    float: right;
+   
+}
+.child1 img{
+    width: 40%;
+    padding-left: 15px;
+    position: relative;
+    top: 8px;
+}
+.child2 img{
+    width: 25%;
+    position: relative;
+    top: 8px;
+    padding-left: 15px;
+}
+.child2 h3{
+    position: relative;
+    right: 300px;
+   top: 60px;
+   text-transform: capitalize;
+   font-weight: lighter;
+}
+.child2 p{
+    position: relative;
+    font-weight: lighter;
+    padding-left: 200px;
+    bottom: 170px;
+}
+.child2 .buton{
+   padding-left: 250px;
+   position: relative;
+   bottom: 150px;
+}
+
+.child1 h3{
+    position: relative;
+    right: 220px;
+   top: 60px;
+   text-transform: capitalize;
+   font-weight: lighter;
+}
+.child1 p{
+    position: relative;
+    font-weight: lighter;
+    left: 300px;
+    bottom: 120px;
+}
+.child1 .buton{
+    position: relative;
+    left: 320px;
+    bottom: 90px;
+}
+.buton input{
+    width: 20%;
+    height: 25px;
+    background-color: royalblue;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+footer{
+    width: 50%;
+    height: 80px;
+    margin-top: 260px;
+    margin-left: 300px;
+}
+footer p {
+    float: left;
+}
+footer .icone{
+    float: right;
+    position: relative;
+    left: 180px;
+    bottom: 26px;
+}
+.icone i{
+    font-size: 35px;
+    text-indent: 20px;
+    cursor: pointer;
+}
